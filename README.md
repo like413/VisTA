@@ -17,6 +17,9 @@ It encompasses 10 essential land-cover categories and 8 comprehensive question t
 Based on this, we present VisTA, a simple yet effective baseline method that unifies the tasks of question answering and grounding by delivering both visual and textual answers.
 Our method achieves state-of-the-art results on both the classic CDVQA and the proposed CDQAG datasets. 
 Extensive qualitative and quantitative experimental results provide useful insights for the development of better CDQAG models, and we hope that our work can inspire further research in this important yet underexplored direction.
+<div align="center">
+  <img src="https://github.com/like413/VisTA/blob/main/fig/1.png?raw=true" width="100%" height="100%"/>
+</div><br/>
 
 ## 🔥 Benchmark dataset QAG-360K
 <div align="center">
@@ -25,7 +28,7 @@ Extensive qualitative and quantitative experimental results provide useful insig
 
 ## 🌟 Simple Baseline Model VisTA
 <div align="center">
-  <img src="https://github.com/like413/VisTA/blob/main/fig/1.png?raw=true" width="100%" height="100%"/>
+  <img src="https://github.com/like413/VisTA/blob/main/fig/3.png?raw=true" width="100%" height="100%"/>
 </div><br/>
 
 <!-- 
