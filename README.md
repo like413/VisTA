@@ -95,14 +95,11 @@ The code is based on [CRIS](https://github.com/DerrickWang005/CRIS.pytorch). We 
 If you use our data or code in your research or find it is helpful, please cite this project.
 
 ```bibtex
-@misc{li2024changedquestionansweringgrounding,
-      title={Show Me What and Where has Changed? Question Answering and Grounding for Remote Sensing Change Detection}, 
-      author={Ke Li and Fuyu Dong and Di Wang and Shaofeng Li and Quan Wang and Xinbo Gao and Tat-Seng Chua},
-      year={2024},
-      eprint={2410.23828},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2410.23828}, 
+@article{li2024show,
+  title={Show Me What and Where has Changed? Question Answering and Grounding for Remote Sensing Change Detection},
+  author={Li, Ke and Dong, Fuyu and Wang, Di and Li, Shaofeng and Wang, Quan and Gao, Xinbo and Chua, Tat-Seng},
+  journal={arXiv preprint arXiv:2410.23828},
+  year={2024}
 }
 ```
 
