@@ -8,6 +8,11 @@ This repository is the official implementation:
 > [Show Me What and Where has Changed? Question Answering and Grounding for Remote Sensing Change Detection](https://arxiv.org/abs/2410.23828)  
 > Ke Li, Fuyu Dong, Di Wang, Shaofeng Li, Quan Wang, Xinbo Gao, Tat-Seng Chua
 
+## 📢 Update
+- **(2025/6/26)** The benchmark method [VisTA](https://github.com/like413/VisTA/tree/main/VisTA) is released.
+- **(2025/2/27)** Contact me for the testing set of the QAG-360K (like0413@stu.xidian.edu.cn).
+- **(2024/11/8)** The first CDQAG dataset [QAG-360K](https://drive.google.com/drive/folders/1EiOJNr8bde7apUQwqoN6cjXWKxIz7QdI?usp=sharing) is released.
+
 ## Abstract
 Remote sensing change detection aims to perceive changes occurring on the Earth’s surface from remote sensing data in different periods, and feed these changes back to humans. 
 However, most existing methods only focus on detecting change regions, lacking the ability to interact with users to identify changes that the users expect. 
@@ -31,11 +36,7 @@ Extensive qualitative and quantitative experimental results provide useful insig
   <img src="https://github.com/like413/VisTA/blob/main/fig/3.png?raw=true" width="100%" height="100%"/>
 </div><br/>
 
-<!-- 
-## Update
-- **(2024/11/1)** The benchmark method [VisTA](https://github.com/like413/VisTA) is released.
-- **(2024/11/1)** The first CDQAG dataset [QAG-360K](https://drive.google.com/drive/folders/1EiOJNr8bde7apUQwqoN6cjXWKxIz7QdI?usp=sharing) is released.
-
+<!---
 ## Installation:
 
 The code is tested under CUDA 11.8, Pytorch 1.11.0 and Detectron2 0.6.
@@ -44,16 +45,6 @@ The code is tested under CUDA 11.8, Pytorch 1.11.0 and Detectron2 0.6.
 2. Run `sh make.sh` under `gres_model/modeling/pixel_decoder/ops`
 3. Install other required packages: `pip -r requirements.txt`
 4. Prepare the dataset following `datasets/DATASET.md`
-
-## Inference
-
-```
-python train_net.py \
-    --config-file configs/referring_swin_base.yaml \
-    --num-gpus 8 --dist-url auto --eval-only \
-    MODEL.WEIGHTS [path_to_weights] \
-    OUTPUT_DIR [output_dir]
-```
 
 ## Training
 
@@ -65,14 +56,15 @@ python train_net.py \
     OUTPUT_DIR [path_to_weights]
 ```
 
-Note: You can add your own configurations subsequently to the training command for customized options. For example:
+## Inference
 
 ```
-SOLVER.IMS_PER_BATCH 48 
-SOLVER.BASE_LR 0.00001 
+python train_net.py \
+    --config-file configs/referring_swin_base.yaml \
+    --num-gpus 8 --dist-url auto --eval-only \
+    MODEL.WEIGHTS [path_to_weights] \
+    OUTPUT_DIR [output_dir]
 ```
-
-For the full list of base configs, see `configs/referring_R50.yaml` and `configs/Base-COCO-InstanceSegmentation.yaml`
 -->
 
 ## 🌈 Results
