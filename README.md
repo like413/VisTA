@@ -10,8 +10,12 @@ This repository is the official implementation:
 
 ## 📢 Update
 - **(2025/6/26)** The benchmark method [VisTA](https://github.com/like413/VisTA/tree/main/VisTA) is released.
-- **(2025/2/27)** Contact me for the testing set of the QAG-360K (like0413@stu.xidian.edu.cn).
 - **(2024/11/8)** The first CDQAG dataset [QAG-360K](https://drive.google.com/drive/folders/1EiOJNr8bde7apUQwqoN6cjXWKxIz7QdI?usp=sharing) is released.
+
+## Contents
+- [QAG-360K Dataset](#-benchmark-dataset-qag-360k)
+- [VisTA Framework](#-simple-baseline-model-vista)
+- [Performance Comparison](#-results)
 
 ## Abstract
 Remote sensing change detection aims to perceive changes occurring on the Earth’s surface from remote sensing data in different periods, and feed these changes back to humans. 
@@ -30,6 +34,10 @@ Extensive qualitative and quantitative experimental results provide useful insig
 <div align="center">
   <img src="https://github.com/like413/VisTA/blob/main/fig/2.png?raw=true" width="100%" height="100%"/>
 </div><br/>
+
+Contact me for the testing set of the QAG-360K (like0413@stu.xidian.edu.cn).
+
+**Note that the dataset is ONLY permitted to be used for research. Don't distribute.**
 
 ## 🌟 Simple Baseline Model VisTA
 <div align="center">
