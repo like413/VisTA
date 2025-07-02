@@ -35,7 +35,7 @@ Extensive qualitative and quantitative experimental results provide useful insig
   <img src="https://github.com/like413/VisTA/blob/main/fig/2.png?raw=true" width="100%" height="100%"/>
 </div><br/>
 
-Contact me for the testing set of the QAG-360K (like0413@stu.xidian.edu.cn).
+Contact me for the testing set of the QAG-360K (keli0413@outlook.com).
 
 **Note that the dataset is ONLY permitted to be used for research. Don't distribute.**
 
